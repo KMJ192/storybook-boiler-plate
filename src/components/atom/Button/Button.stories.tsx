@@ -9,9 +9,5 @@ export default {
 };
 
 export const button = (): JSX.Element => {
-  return (
-    <Button variant='warning' size='medium'>
-      primary
-    </Button>
-  );
+  return <Button>primary</Button>;
 };

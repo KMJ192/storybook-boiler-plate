@@ -1,2 +1,2 @@
 // entry point
-export { default as Button } from '@src/components/Button/Button';
+export { default as Button } from '@src/components/atom/Button/Button';
