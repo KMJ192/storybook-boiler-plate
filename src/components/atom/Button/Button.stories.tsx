@@ -1,6 +1,8 @@
+import type { Meta } from '@storybook/react';
+
 import Button from './Button';
 
-export default {
+const meta: Meta<typeof Button> = {
   title: 'UI/Button',
   component: Button,
   parameters: {
@@ -11,3 +13,5 @@ export default {
 export const button = (): JSX.Element => {
   return <Button>primary</Button>;
 };
+
+export default meta;
