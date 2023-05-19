@@ -1,1 +1,5 @@
-# Storybook 보일러 플레이트 컴포넌트
+# any-ui
+
+### 구조
+
+- atomic design 구조
